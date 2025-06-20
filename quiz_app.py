@@ -83,9 +83,7 @@ if st.button("🔐 Vis resultat"):
     if score >= 4:
         st.success("Stærkt klaret, Kristoffer! 🔓")
         st.markdown(
-	    "Uanset om fremtiden byder på en rejse til Japan eller et kørekort, så håber vi, du får et fantastisk sabbatår og et stærkt afsæt videre. 🌞✈️🚗
-
-TILLYKKE, STUDENT! 🎓🇩🇰❤️"
+	    "Uanset om fremtiden byder på en rejse til Japan eller et kørekort, så håber vi, du får et fantastisk sabbatår og et stærkt afsæt videre. 🌞✈️🚗 TILLYKKE, STUDENT! 🎓🇩🇰❤️"
             "Tak fordi du legede med – og tillykke igen fra os alle tre! 💸🎈"
         )
     else:
