@@ -39,7 +39,7 @@ score = 0
 st.subheader("Spørgsmål 1: Berserk")
 q1 = st.radio(
     "Hvad hedder hovedpersonen i mangaen Berserk?",
-    ["A) Guts", "B) Griffith", "C) Zodd", "D) Casca"]
+    ["A) Guts", "B) Mogens", "C) Zodd", "D) Baruto"]
 )
 if q1.startswith("A"):
     score += 1
@@ -47,17 +47,17 @@ if q1.startswith("A"):
 st.subheader("Spørgsmål 2: One Piece")
 q2 = st.radio(
     "Hvad hedder skibet, som Luffy og hans besætning sejler med i starten af One Piece?",
-    ["A) Going Merry", "B) Thousand Sunny", "C) Red Force", "D) Merry Go"]
+    ["A) Red Force", "B) Thousand Sunny", "C) Going Merry", "D) Merry Go"]
 )
-if q2.startswith("A"):
+if q2.startswith("C"):
     score += 1
 
 st.subheader("Spørgsmål 3: Ado")
 q3 = st.radio(
     "Hvilket gennembrudshit gjorde Ado kendt i Japan i 2020?",
-    ["A) Usseewa", "B) Odo", "C) Tot Musica", "D) Kaze no Uta"]
+    ["A) Cotten eye joe", "B) Usseewa", "C) Barbie Girl", "D) Kaze no Uta"]
 )
-if q3.startswith("A"):
+if q3.startswith("B"):
     score += 1
 
 st.subheader("Spørgsmål 4: Gaveindpakning")
@@ -83,7 +83,7 @@ if st.button("🔐 Vis resultat"):
     if score >= 4:
         st.success("Stærkt klaret, Kristoffer! 🔓")
         st.markdown(
-	    "Uanset om fremtiden byder på en rejse til Japan eller et kørekort, så håber vi, du får et fantastisk sabbatår og et stærkt afsæt videre. 🌞✈️🚗 TILLYKKE, STUDENT! 🎓🇩🇰❤️"
+	    "Præmien er et tilskud til dine rejsedrømme og uanset om fremtiden byder på en rejse til Japan eller et kørekort, så håber vi, du får et fantastisk sabbatår og et stærkt afsæt videre. 🌞✈️🚗 TILLYKKE, STUDENT! 🎓🇩🇰❤️"
             "Tak fordi du legede med – og tillykke igen fra os alle tre! 💸🎈"
         )
     else:
