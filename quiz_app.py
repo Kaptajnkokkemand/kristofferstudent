@@ -26,10 +26,16 @@ st.write("Tillyke med huen Kristoffer")
 st.write("Velkommen til din helt egen quiz – en lille del af din studentergave fra Asbjørn, Ulla og Niels. 🎁")
 st.write("Vi er glade for, at du har gennemført gymnasiet og har klaret dig godt! 👏")
 
-# Introduktionsspørgsmål
-st.subheader("🤔 Før vi starter…")
-gladhed = st.slider("På en skala fra 1 til 10 – hvor glad er du for at være færdig med gymnasiet?", 1, 10, 7)
-st.write(f"Du valgte: {gladhed}/10 🎉")
+# Introslider
+gladhed = st.slider("På en skala fra 1-10, hvor glad er du for at være færdig med gymnasiet? 🎓", 1, 10)
+
+# Dynamisk respons baseret på valg
+if gladhed < 5:
+    st.write("😅 Hmm... du kunne vist godt være lidt gladere.")
+elif 5 <= gladhed <= 7:
+    st.write("😊 Det lyder som en lettelse – godt gået!")
+else:
+    st.write("🎉 Fantastisk! Det har du også fortjent.")
 
 st.markdown("---")
 
