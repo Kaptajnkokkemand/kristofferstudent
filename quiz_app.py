@@ -89,17 +89,18 @@ if st.button("🔐 Vis resultat"):
     if score >= 4:
         st.success("Tillykke – du har gennemført quizen! 🎉")
 
-	st.markdown(
-	    """
-	Vi er glade for, at du har gennemført gymnasiet og har klaret dig godt – det er virkelig sejt gået.  
-	Gaven er fra os tre – **Ulla, Niels og Asbjørn** – og vi ønsker dig alt det bedste i det næste kapitel.
+        st.markdown(
+            """
+Vi er glade for, at du har gennemført gymnasiet og har klaret dig godt – det er virkelig sejt gået.  
+Gaven er fra os tre – **Ulla, Niels og Asbjørn** – og vi ønsker dig alt det bedste i det næste kapitel.
 
-	Uanset om fremtiden byder på en rejse til Japan eller et kørekort, så håber vi, du får et fantastisk sabbatår og et stærkt afsæt 	videre. 🌞✈️🚗
+Uanset om fremtiden byder på en rejse til Japan eller et kørekort, så håber vi, du får et fantastisk sabbatår og et stærkt afsæt videre. 🌞✈️🚗
 
-	**TILLYKKE, Kristoffer!** 🎓🇩🇰❤️
+**TILLYKKE, Kristoffer!** 🎓🇩🇰❤️
 
-	Tak fordi du legede med – og tillykke igen fra os alle tre! 💸🎈
-	    """
-	)
+Tak fordi du legede med – og tillykke igen fra os alle tre! 💸🎈
+            """
+        )
     else:
         st.warning("Hmm, prøv igen og se, om du kan få adgang til gaven... 😉")
+
